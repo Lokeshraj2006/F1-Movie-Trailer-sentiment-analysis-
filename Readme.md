@@ -6,6 +6,9 @@ This project analyzes YouTube comments on the official **F1 Movie Trailer** usin
 
 ---
 
+## ⭐ Feel free to fork or star this repo if you found it useful.
+
+
 ## 📌 Project Summary
 
 - 📥 Collected 300+ top comments from YouTube using `youtube-comment-downloader`
@@ -13,6 +16,48 @@ This project analyzes YouTube comments on the official **F1 Movie Trailer** usin
 - 💬 Performed sentiment analysis with `TextBlob`
 - 📊 Visualized results using pie charts and word clouds
 - 🧠 Interpreted viewer sentiment and top keywords
+
+---
+
+## 🛠️ Tools & Libraries Used
+
+- Python 3.11
+- pandas
+- matplotlib
+- wordcloud
+- textblob
+- re (regex)
+- youtube-comment-downloader
+
+---
+
+## 💼 What This Project Demonstrates
+
+- ✅ Real-world text scraping and data collection
+- ✅ End-to-end text preprocessing pipeline
+- ✅ Basic sentiment classification using lexicon-based NLP
+- ✅ Visual storytelling through data
+- ✅ Business-focused insights from unstructured data
+
+---
+
+## 📊 Potential Use Cases
+
+- 🎯 Studio marketing teams to assess trailer performance
+- 🎯 Social media managers for content feedback
+- 🎯 Brands or creators measuring audience reactions to video releases
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 About Me
+
+I  Have a strong interest in applying data science to real-world media, marketing, and entertainment problems. This project is part of my hands-on learning journey.
 
 ---
 
