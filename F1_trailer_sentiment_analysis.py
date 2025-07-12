@@ -1,4 +1,3 @@
-# main.py
 from youtube_comment_downloader import YoutubeCommentDownloader
 import pandas as pd
 import re
@@ -35,7 +34,8 @@ def get_sentiment(text):
         return "Neutral"
 
 df['sentiment'] = df['cleaned_comment'].apply(get_sentiment)
-df.to_csv("f1_movie_comments.csv", index=False)
+
+df.to_csv("f1_movie_comments.csv", index=False)  #To make a CSV file 
 
 # To visualize Sentiment Distribution 
 sentiment_counts = df['sentiment'].value_counts()
@@ -52,4 +52,3 @@ plt.imshow(wc, interpolation='bilinear')
 plt.axis('off')
 plt.title("Top Words in Comments")
 plt.show()
-df.to_csv("f1_movie_comments.csv", index=False)
